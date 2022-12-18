@@ -17,7 +17,6 @@ export default defineConfig({
       include: [/\.vue$/, /\.md$/],
       reactivityTransform: true,
     }),
-    DefineOptions(),
     AutoImport({
       imports: [
         'vue',
@@ -38,6 +37,7 @@ export default defineConfig({
     Components({
       dts: 'src/components.d.ts',
     }),
+    DefineOptions(),
     UnoCSS(),
   ],
 })
