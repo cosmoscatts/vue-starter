@@ -26,10 +26,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.40.2",
-    "@iconify/json": "^2.2.100",
-    "@types/node": "^20.4.9",
+    "@iconify/json": "^2.2.102",
+    "@types/node": "^20.5.0",
     "@vitejs/plugin-vue": "^4.2.3",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "typescript": "^5.1.6",
     "unocss": "^0.55.0",
     "unplugin-auto-import": "^0.16.6",
